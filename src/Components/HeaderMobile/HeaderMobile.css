@@ -1,0 +1,43 @@
+.header-mobile {
+  width: 100%;
+  .logo-header {
+    background-color: var(--bg-third);
+
+    img {
+      margin: 0 auto;
+      display: block;
+      width: 15rem;
+      height: auto;
+      padding: var(--padding-s) 0;
+    }
+  }
+  .nav-headerMobile {
+    width: 100%;
+    background-color: var(--bg-third);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    .nav-list-headerMobile {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: var(--padding-s);
+
+      .nav-item-headerMobile {
+        height: 5rem;
+        a {
+          text-decoration: none;
+          color: var(--bg-secondary);
+          font-size: var(--font-size-bm);
+          font-weight: 600;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: var(--gap-xxl);
+        }
+      }
+    }
+  }
+}
