@@ -57,5 +57,9 @@
 body {
   background-color: var(--bg-primary);
   width: 100%;
-  font-family: var(--font-Poppins);
+  font-family: var(--font-Montserrat);
+
+  main {
+    width: 100%;
+  }
 }

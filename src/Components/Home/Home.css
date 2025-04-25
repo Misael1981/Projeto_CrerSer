@@ -1,0 +1,45 @@
+.home {
+  background-color: var(--bg-third);
+  padding: var(--padding-l);
+
+  .logo {
+    img {
+      width: 15rem;
+    }
+  }
+  .home__content {
+    text-align: center;
+    padding: var(--padding-l) 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap-l);
+    h2 {
+      font-family: var(--font-Poppins);
+      font-size: var(--font-size-xl);
+      font-weight: 700;
+      color: #031f03;
+      text-align: start;
+    }
+    p {
+      font-size: 1.5rem;
+    }
+    a {
+      display: block;
+      background-color: var(--bg-secondary);
+      padding: var(--padding-l);
+      border-radius: 2rem;
+      text-decoration: none;
+      color: var(--bg-primary);
+      font-size: var(--font-size-bm);
+      font-weight: 600;
+    }
+  }
+  div {
+    width: 100%;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
