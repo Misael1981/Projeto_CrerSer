@@ -1,5 +1,12 @@
 .header-mobile {
   width: 100%;
+
+  .logo {
+    padding: var(--padding-l) var(--padding-l) 0;
+    img {
+      width: 15rem;
+    }
+  }
   .nav-headerMobile {
     width: 100%;
     background-color: var(--bg-third);
@@ -27,5 +34,8 @@
         }
       }
     }
+  }
+  @media screen and (width > 1020px) {
+    display: none;
   }
 }

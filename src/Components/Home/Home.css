@@ -1,12 +1,7 @@
 .home {
   background-color: var(--bg-third);
-  padding: var(--padding-l);
+  padding: 0 var(--padding-l) var(--padding-l);
 
-  .logo {
-    img {
-      width: 15rem;
-    }
-  }
   .home__content {
     text-align: center;
     padding: var(--padding-l) 0;
@@ -40,6 +35,16 @@
     img {
       width: 100%;
       height: auto;
+    }
+  }
+  @media screen and (width > 1020px) {
+    display: flex;
+    gap: var(--gap-l);
+
+    .home__content {
+      h2 {
+        text-align: center;
+      }
     }
   }
 }

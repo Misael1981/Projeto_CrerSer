@@ -1,0 +1,36 @@
+.header-desktop {
+  background-color: var(--bg-third);
+  box-sizing: border-box;
+  width: 100%;
+  padding: var(--padding-m);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo {
+    flex: 1;
+    img {
+      width: 12rem;
+      height: auto;
+    }
+  }
+
+  .nav-desktop {
+    flex: 2;
+    .nav-list {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .nav-item a {
+        text-decoration: none;
+        color: var(--bg-secondary);
+        font-size: var(--font-size-m);
+        font-weight: 600;
+      }
+    }
+  }
+  @media screen and (width < 1020px) {
+    display: none;
+  }
+}

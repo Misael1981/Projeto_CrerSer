@@ -1,12 +1,8 @@
 import "./Home.css";
-import Logo from "/logo-header.png";
 
 const Home = () => {
   return (
     <section className="home">
-      <div className="logo">
-        <img src={Logo} alt="Logo do projeto CrerSer" />
-      </div>
       <div className="home__content">
         <h2>
           Histórias diárias que conectam sua família com os valores de Deus!
