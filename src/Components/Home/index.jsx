@@ -18,7 +18,7 @@ const Home = () => {
         <a href="#">Quero começar agora</a>
       </div>
       <div>
-        <img src="/public/video.jpg" alt="" />
+        <img src="/video.jpg" alt="imagem ilustrativa apenas para o vídeo" />
       </div>
     </section>
   );
