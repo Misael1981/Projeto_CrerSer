@@ -1,0 +1,35 @@
+.headerDesktop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--padding-l);
+  background-color: var(--bg-third);
+  color: white;
+
+  .logoHeader {
+    width: 12rem;
+    height: auto;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .menuNav {
+    flex: 1;
+    max-width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .menuLink {
+      text-decoration: none;
+      color: var(--bg-secondary);
+      font-size: var(--font-size-xm);
+      font-weight: 600;
+    }
+  }
+  @media screen and (width < 1020px) {
+    display: none;
+  }
+}
